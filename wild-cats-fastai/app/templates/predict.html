@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wild-cats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            {% for item in items %}
+            <div class="col-md-3">
+                <img class="img-fluid img-thumbnail figure-img" src="data:image/png;base64, {{ item.image }}">
+                <figcaption class="figure-caption">
+                    <div class="text-truncate">
+                        {{ item.fname }}
+                    </div>
+                    <div>
+                        <span class="predicted-label">{{ item.label }} / {{ item.prob }}</span>
+                    </div>
+                </figcaption>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <style>
+        .container {
+            padding-top: 32px;
+        }
+        .col-md-3 {
+            padding-bottom: 15px;
+        }
+        .predicted-label {
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+
+.ipynb_checkpoints
+.vscode
+__pycache__
+/dog-breeds-keras/data
+/dog-breeds-keras/temp
+/wild-cats-fastai/data/*
+!/wild-cats-fastai/data/*.txt
+/planet-amazon-fastai/data
+/ship-detection-fastai/data
+*.pth
+*.pkl
+*.hdf5
+*.h5

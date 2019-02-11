@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ship-detection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            {% for item in items %}
+            <div class="col-md-3">
+                <img class="img-fluid img-thumbnail figure-img" src="data:image/png;base64, {{ item.image }}">
+                <figcaption class="figure-caption">
+                    <div class="text-truncate">
+                        {{ item.fname }}
+                    </div>
+                    <div>
+                        {% if item.ships > 0 %}
+                        <span class="badge badge-success">{{ item.ships }} ships found</span>
+                        {% else %}
+                        <span class="badge badge-secondary">no ships found</span>
+                        {% endif %}
+                    </div>
+                </figcaption>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <style>
+        .container {
+            padding-top: 32px;
+        }
+        .col-md-3 {
+            padding-bottom: 15px;
+        }
+    </style>
+</body>
+
+</html>
