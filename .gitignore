@@ -8,6 +8,7 @@ __pycache__
 !/wild-cats-fastai/data/*.txt
 /planet-amazon-fastai/data
 /ship-detection-fastai/data
+/amazon-reviews-fastai/*/*.tsv
 *.pth
 *.pkl
 *.hdf5
