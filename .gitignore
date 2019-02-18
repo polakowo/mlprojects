@@ -6,7 +6,7 @@ __pycache__
 /wild-cats-visualization/data/*
 !/wild-cats-visualization/data/*.txt
 /planet-amazon-classification/data
-/airbus-ship-detection-segmentation/data
+/airbus-ship-segmentation/data
 /amazon-reviews-sentiment-analysis/*/*.tsv
 *.pth
 *.pkl
