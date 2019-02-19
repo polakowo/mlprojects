@@ -8,6 +8,7 @@ __pycache__
 /planet-amazon-classification/data
 /airbus-ship-segmentation/data
 /amazon-reviews-sentiment-analysis/*/*.tsv
+/movielens-collab-filtering/data/ml-latest-small
 *.pth
 *.pkl
 *.hdf5
