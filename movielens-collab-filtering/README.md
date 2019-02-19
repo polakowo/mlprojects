@@ -1,1 +1,1 @@
-Building a movie recommender system on collaborative filtering with MovieLens dataset.
+Building a movie recommender system using item-based collaborative filtering (MovieLens dataset).
