@@ -1,6 +1,5 @@
 from starlette.applications import Starlette
-from starlette.responses import HTMLResponse
-from starlette.middleware.cors import CORSMiddleware
+from starlette.templating import Jinja2Templates
 import uvicorn
 import aiohttp
 import asyncio
@@ -18,8 +17,8 @@ from skimage.morphology import label
 from unpickler_attrs import *
 
 path = vision.Path(__file__).parent
-app = Starlette(debug=True, template_directory=path/'templates')
-app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
+app = Starlette(debug=True)
+templates = Jinja2Templates(str(path/'templates'))
 
 
 def load_learner(path, fname):
@@ -142,16 +141,12 @@ async def upload(request):
     predictions = list()
     for file in data.getlist('files'):
         predictions.append(await get_prediction(file))
-    template = app.get_template('predict.html')
-    content = template.render(items=predictions)
-    return HTMLResponse(content)
+    return templates.TemplateResponse("predict.html", {"items": predictions, "request": request})
 
 
 @app.route("/")
 def form(request):
-    template = app.get_template('upload.html')
-    content = template.render()
-    return HTMLResponse(content)
+    return templates.TemplateResponse("upload.html", {"request": request})
 
 
 if __name__ == "__main__":
