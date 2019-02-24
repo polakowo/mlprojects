@@ -6,3 +6,6 @@ python-multipart
 aiofiles
 aiohttp
 jinja2
+opencv-python
+scipy
+matplotlib
