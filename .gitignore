@@ -9,6 +9,7 @@ __pycache__
 /airbus-ship-segmentation/data
 /amazon-reviews-sentiment-analysis/*/*.tsv
 /movielens-collab-filtering/data/ml-latest-small
+/rossmann-sales-prediction/data
 *.pth
 *.pkl
 *.hdf5
