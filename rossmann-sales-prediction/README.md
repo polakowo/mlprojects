@@ -1,1 +1,1 @@
-Forecast Rossmann sales with a DL model for tabular data.
+Forecast Rossmann sales with a model for tabular data, incl. data preparation and exploration.
