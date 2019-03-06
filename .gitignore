@@ -10,6 +10,8 @@ __pycache__
 /amazon-reviews-sentiment-analysis/*/*.tsv
 /movielens-collab-filtering/data/ml-latest-small
 /rossmann-sales-prediction/data
+/credit-card-fraud-detection/data
+/credit-card-fraud-detection/models
 *.pth
 *.pkl
 *.hdf5
