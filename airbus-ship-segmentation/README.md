@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/library-fastai-ff69b4.svg)
+
 Dynamic Unet with ResNet34 backbone for the [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) competition.
 
 The web app can be deployed with
