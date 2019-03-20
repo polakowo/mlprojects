@@ -4,7 +4,7 @@ __pycache__
 /optimized-transfer-learning/data
 /optimized-transfer-learning/temp
 /wild-cats-visualization/data/*
-!/model-visual-explanation/data/*.txt
+!/visual-model-explanation/data/*.txt
 /planet-amazon-classification/data
 /airbus-ship-segmentation/data
 /amazon-reviews-sentiment-analysis/*/*.tsv
