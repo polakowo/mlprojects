@@ -1,4 +1,4 @@
-Visual explanation of the model's decision-making process. Fine-tuned ResNet34 as wild cats recognizer.
+Visual explanation of the model's decision making. Fine-tuned ResNet34 as wild cats recognizer.
 
 The web app can be deployed with
 ```
