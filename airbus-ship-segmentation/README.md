@@ -1,5 +1,4 @@
-![](https://img.shields.io/badge/library-pytorch-ff69b4.svg)
-![](https://img.shields.io/badge/library-pytorch-red.svg)
+![](https://img.shields.io/badge/library-fastai-ff69b4.svg)
 
 Dynamic Unet with ResNet34 backbone for the [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) competition.
 
