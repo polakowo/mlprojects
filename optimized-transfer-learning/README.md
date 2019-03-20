@@ -1,3 +1,1 @@
-Fine-tuned InceptionV3 as a dog breed classifier. An approach with bottleneck feature extraction.
-
-![](cam.png)
+Freezing with bottleneck feature extraction and fine-tuning an InceptionV3 model.
