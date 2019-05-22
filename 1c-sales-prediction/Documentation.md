@@ -23,7 +23,7 @@
 - Despite that CatBoost often performs better than any other GBM on the market, it does so only when we have categorical variables in the data and we properly tune them. In order to get a feel of which combination of categorical features results in good performance, we tried them all with a brute-force search. Moreover, we saved predictions of each fitted booster to the disk for the blender. As result, we created 8 set of predictions each with slighly worse performance than LGBM.
 
 **LinReg:**
-- 
+- Linear models are fully different set of estimators than boosting models and so they require totally different set of preprocessing steps: scaling and encoding. Since the basic implementation of *LogisticRegression* by *sklearn* is slow for our big and high-dimentional data, we used Vowpal Wabbit, which is prominent for its training speed and support of many training modes, especially for online learning (where stochastic GD is a subtype).
 
 **NeuralNet:**
 -
