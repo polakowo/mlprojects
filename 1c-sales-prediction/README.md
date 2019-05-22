@@ -1,1 +1,1 @@
-Given a time-series dataset consisting of daily sales data provided by 1C Company, predict total sales for every product and store in the next month by using GBMs, linear regression, neural networks, and ensembles.
+Predict total sales for every product and store in the next month by using GBMs, linear regression, neural networks, and ensembles (provided by 1C Company).
