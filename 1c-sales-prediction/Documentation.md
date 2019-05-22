@@ -7,10 +7,8 @@
 **Summary**:
 - We used Gradient Boosting Models such as LightGBM and CatBoost, Linear Regression (Vowpal Wabbit), Neural Networks (fastai), and ensemble methods such as bagging of LGBM models and blending of all base models. For non-tree-based models such as Linear Regression and Neural Networks standard scaling across all features was used. The most relevant features were selected based on the importance scores of the fitted LGBM models. 
 
-**Dataset:**
-- Other than other publicly available kernels, we didn't use the whole dataset nor the fixed number of months prior to the test set: we randomly sampled 3 million records from the whole dataset. This way we reduced the data size but at the same time we didn't loose any information and target distribution remained the same. For example, our train set contains the same number of records from 12st month as from the 32th month; since lagged features are missing in the first couple of months, a model would generalize better, and so we improved the LB scores. 
-
-**Validation scheme:**
+**Data split and validation scheme:**
+- Other than other publicly available kernels, we didn't use the whole dataset nor the fixed number of months prior to the test set: we randomly sampled 3 million records from the whole dataset. This way we reduced the data size but at the same time we didn't loose any information and target distribution remained the same. For example, our train set contains the same number of records from 12st month as from the 32th month; since lagged features are missing in the first couple of months, models generalize better, and so we improved the LB scores. 
 - Since the data contains a time variable, we had to respect it in the validation scheme: we used 33th month as validation set for first-level models (simple holdout scheme), and a custom validation scheme similar to TimeSeriesSplit for second-layer models (KFold scheme in time series). For ensembling we reserved total of 4 months. 
 
 **Data preparation:**
