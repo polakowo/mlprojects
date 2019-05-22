@@ -3,3 +3,24 @@
 2. Run [LightGBM](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/LightGBM.ipynb) to produce first base-model meta features and predictions. While importing the preprocessed data, pay attention to the structure of folders with input files, since the notebooks were downloaded directly from Kaggle. Similarly run the [CatBoost](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/CatBoost.ipynb), [LinReg](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/LinReg.ipynb) and [NeuralNet](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/NeuralNet.ipynb) notebooks.
 4. Run [Blending](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/Blending.ipynb), which takes outputs of the base models and generates CSV files for submission.
 5. (optional) For fastest use, upload all notebooks to Kaggle and import the competition data and the respective outputs from other kernels. In Kaggle, data preparation runs in 15min, base-model notebooks run in 2 hours if done in parallel, ensembling runs in 5min.
+
+**Summary**:
+We used Gradient Boosting Models such as LightGBM and CatBoost, Linear Regression (Vowpal Wabbit), Neural Networks (fastai), and ensemble methods such as bagging of LGBM models and blending of all base models. For non-tree-based models such as Linear Regression and Neural Networks standard scaling across all features was used. The most relevant features were selected based on the importance scores of the fitted LGBM models. Since the data contains a time variable, we had to respect it in the validation scheme: we used 33th month as validation set for first-level models, and a custom validation scheme similar to TimeSeriesSplit for second-layer models.
+
+**DataPreparation:**
+- When exploring the data we identified the discrepancy between training and test distributions. The test set is a cartesian product of shop and item ids within the 34 date block. There are 5100 items * 42 shops = 214200 pairs. To make both sets similar, for each date block in train, we created a product of shops and items which produced a nearly sparse matrix. Furthermore, we aggregated daily sales to monthly sales. We also clipped the target to *[0, 20]* range, which is similarly done by the competition's evaluation mechanism. The preprocessing on text features included several fixes such as duplicate removal, extraction of item types and subtypes, and extraction of the city name. The most influential variables generated were target encodings: we aggregated sales across categorical features and their combinations. We also tried default KFold, expanding and leave-one-out strategies, but encountered a drop in leaderboard scores. In order for the base models to capture information about past and better generalize, we also introduced a set of lagged features, with small windows being the most benefial. About RAM optimization: Having millions of records and dozens of features in the dataset, we also downcasted the dataframe to the smallest possible numeric datatype to safe memory. We'd like to note here that float16 produced strange results, so that we selected float32 as the smallest precision.
+
+**LightGBM:**
+- 
+
+**CatBoost:**
+- 
+
+**LinReg:**
+-
+
+**NeuralNet:**
+-
+
+**Blending:**
+-
