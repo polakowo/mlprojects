@@ -17,7 +17,7 @@
 - About RAM optimization: Having millions of records and dozens of features in the dataset we often encountered memory errors, so we downcasted the dataframe to the smallest numeric datatype to safe memory. We'd like to note that *float16* produced strange results since it is less widely supported than *float32*, thus we used the latter.
 
 **LightGBM:**
-- LGBM was by far the most powerful and at the same time the fastest model. 
+- LGBM was by far the most powerful and at the same time the fastest model. We used the speed of LGBM to create as many diverse models as possible. Apart from the baseline model with default configuration, we tuned a regressor (whereas we used a smaller subset of data to speed up the process). We then used the tuning history to average models of different configurations. Similarly, we averaged best-performing models with different random seeds, which gave us the best score across LGBMs.
 
 **CatBoost:**
 - 
