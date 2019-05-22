@@ -5,7 +5,7 @@
 5. (optional) For fastest use, upload all notebooks to Kaggle and import the competition data and the respective outputs from other kernels. In Kaggle, data preparation runs in 15min, base-model notebooks run in 2 hours if done in parallel, ensembling runs in 5min.
 
 **Summary**:
-- We used Gradient Boosting Models such as LightGBM and CatBoost, Linear Regression (Vowpal Wabbit), Neural Networks (fastai), and ensemble methods such as bagging of LGBM models and blending of all base models. For non-tree-based models such as Linear Regression and Neural Networks standard scaling across all features was used. The most relevant features were selected based on the importance scores of the fitted LGBM models. Since the data contains a time variable, we had to respect it in the validation scheme: we used 33th month as validation set for first-level models, and a custom validation scheme similar to TimeSeriesSplit for second-layer models.
+- We used Gradient Boosting Models such as LightGBM and CatBoost, Linear Regression (Vowpal Wabbit), Neural Networks (fastai), and ensemble methods such as bagging of LGBM models and blending of all base models. For non-tree-based models such as Linear Regression and Neural Networks standard scaling across all features was used. The most relevant features were selected based on the importance scores of the fitted LGBM models. Since the data contains a time variable, we had to respect it in the validation scheme: we used 33th month as validation set for first-level models, and a custom validation scheme similar to TimeSeriesSplit for second-layer models. Other than other publicly available kernels, we didn't use the whole dataset nor the fixed number of months prior to the test set: we simply sampled the dataset randomly. For example, our train set contains the same number of records from 1st month as from the 32th month; since lagged features are missing in the first couple of months, the model generalizes better.
 
 **DataPreparation:**
 - When exploring the data we identified the discrepancy between training and test distributions. The test set is a cartesian product of shop and item ids within the 34 date block. There are 5100 items * 42 shops = 214200 pairs. To make both sets similar, for each date block in train, we created a product of shops and items which produced a nearly sparse matrix. Furthermore, we aggregated daily sales to monthly sales. We also clipped the target to *[0, 20]* range, which is similarly done by the competition's evaluation mechanism. 
@@ -17,7 +17,7 @@
 - About RAM optimization: Having millions of records and dozens of features in the dataset we often encountered memory errors, so we downcasted the dataframe to the smallest numeric datatype to safe memory. We'd like to note that *float16* produced strange results since it is less widely supported than *float32*, thus we used the latter.
 
 **LightGBM:**
-- 
+- LGBM was by far the most powerful and at the same time the fastest model. 
 
 **CatBoost:**
 - 
