@@ -1,8 +1,1 @@
 Work with a challenging time-series dataset consisting of daily sales data provided by 1C Company. Predict total sales for every product and store in the next month by using GBMs, linear regression, neural networks, and ensembles.
-
-**The clear step-by-step instruction on how to produce the final submit file:**
-1. Download competition data and preprocess it with the [DataPreparation.ipynb](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/DataPreparation.ipynb) notebook, which outputs data in a HDF5 format.
-2. Run the [LightGBM.ipynb](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/LightGBM.ipynb) notebook to produce first base-model meta features and predictions. While importing the preprocessed data, pay attention to the structure of folders with input files, since the notebooks were downloaded directly from Kaggle. 
-3. Similarly run the [CatBoost.ipynb](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/CatBoost.ipynb), [LinReg.ipynb](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/LinReg.ipynb) and [NeuralNet.ipynb](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/NeuralNet.ipynb) notebooks.
-4. Run the [Blending.ipynb](https://github.com/polakowo/mymlprojects/blob/master/sales-prediction/Blending.ipynb) notebook, which takes outputs of the base models and generates CSV files for submission.
-5. (optional) For fastest use, upload all notebooks to Kaggle and import the competition data and the respective outputs from other kernels. In Kaggle, data preparation runs in 15min, base-model notebooks run in 2 hours if done in parallel, ensembling runs in 5min.
