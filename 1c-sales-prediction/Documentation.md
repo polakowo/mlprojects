@@ -20,10 +20,10 @@
 - LGBM was by far the most powerful and at the same time the fastest model. We used the speed of LGBM to create as many diverse models as possible. Apart from the baseline model with default configuration, we tuned a regressor (whereas we used a smaller subset of data to speed up the process). We then used the tuning history to average models of different configurations. Similarly, we averaged best-performing models with different random seeds, which gave us the best score across LGBMs. Each configuration had the same input, with all categorical features except *item_id* being of type *category*; for features with high cardinality such as *item_id* it often works best to treat them as numeric by simply ignoring the categorical interpretation of the integers.
 
 **CatBoost:**
-- 
+- Despite that CatBoost often performs better than any other GBM on the market, it does so only when we have categorical variables in the data and we properly tune them. In order to get a feel of which combination of categorical features results in good performance, we tried them all with a brute-force search. Moreover, we saved predictions of each fitted booster to the disk for the blender. As result, we created 8 set of predictions each with slighly worse performance than LGBM.
 
 **LinReg:**
--
+- 
 
 **NeuralNet:**
 -
