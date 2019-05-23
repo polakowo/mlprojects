@@ -53,19 +53,30 @@
         <div class="row text-center justify-content-center" style="margin: 20px;">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link" id="projects-tab" data-toggle="pill" href="#projects" role="tab"
+                    <a class="nav-link active" id="projects-tab" data-toggle="pill" href="#projects" role="tab"
                         aria-controls="projects" aria-selected="true">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" id="fundamentals-tab" data-toggle="pill" href="#fundamentals" role="tab"
-                        aria-controls="fundamentals" aria-selected="false">Fundamentals</a>
+                    <a class="nav-link" id="notes-tab" data-toggle="pill" href="#notes" role="tab"
+                        aria-controls="notes" aria-selected="false">Notes</a>
                 </li>
             </ul>
         </div>
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+            <div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                <section class="jumbotron text-center">
+                    <div class="container">
+                        <p class="lead text-muted">The following list contains a set of machine learning projects 
+                        implemented during my journey through the field of artificial intelligence.</p>
+                    </div>
+                </section>
+                <div class="album py-5 bg-light">
+                    <div class="container" id="projects-container">
+                        
+                    </div>
+                </div>
             </div>
-            <div class="tab-pane fade show active" id="fundamentals" role="tabpanel" aria-labelledby="fundamentals-tab">
+            <div class="tab-pane fade" id="notes" role="tabpanel" aria-labelledby="notes-tab">
                 <section class="jumbotron text-center">
                     <div class="container">
                         <p class="lead text-muted">Below you will find a collection of notes and summaries on key machine 
@@ -73,418 +84,8 @@
                     </div>
                 </section>
                 <div class="album py-5 bg-light">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <hr>
-                            </div>
-                            <div class="col-auto">General</div>
-                            <div class="col">
-                                <hr>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/deep-learning.png">
-                                        <div class="text-overlay">
-                                            <span>FIELD OF DEEP LEARNING</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">An introduction to deep artificial neural networks and
-                                            deep
-                                            learning</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Deep-Learning.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/ml-strategy.jpg">
-                                        <div class="text-overlay">
-                                            <span>MACHINE LEARNING STRATEGY</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Tips on how to build a successful machine learning
-                                            project</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/ML-Strategy.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <hr>
-                            </div>
-                            <div class="col-auto">Fundamentals</div>
-                            <div class="col">
-                                <hr>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/backpropagation.png">
-                                        <div class="text-overlay">
-                                            <span>BACKPROPAGATION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Backpropagation and gradient checking for efficiently
-                                            training
-                                            neural networks</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Backpropagation.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/activation-functions.png">
-                                        <div class="text-overlay">
-                                            <span>ACTIVATION FUNCTIONS</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Commonly used activation functions for diverse
-                                            architectures</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Activation-Functions.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/initialization.png">
-                                        <div class="text-overlay">
-                                            <span>WEIGHTS INITIALIZATION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Dangers of bad weight initialization and the
-                                            best-practice methods
-                                            to use</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Initialization.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/optimization.png">
-                                        <div class="text-overlay">
-                                            <span>OPTIMIZATION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Types of optimization algorithms used in neural
-                                            networks and ways
-                                            to optimize gradient descent</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Optimization.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/regularization.png">
-                                        <div class="text-overlay">
-                                            <span>REGULARIZATION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Regularization and data augmentation as ways to adjust
-                                            bias and
-                                            variance</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Regularization.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <hr>
-                            </div>
-                            <div class="col-auto">Computer Vision</div>
-                            <div class="col">
-                                <hr>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/convnets.png">
-                                        <div class="text-overlay">
-                                            <span>CONVOLUTIONAL NEURAL NETWORKS</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Fundamentals and main building blocks of convolutional
-                                            neural
-                                            networks</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/ConvNets.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/convnet-architectures.png">
-                                        <div class="text-overlay">
-                                            <span>ARCHITECTURES</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Evolution and comparison of commonly used architectures
-                                            for
-                                            convolutional networks</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/ConvNet-Architectures.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/object-detection.png">
-                                        <div class="text-overlay">
-                                            <span>OBJECT DETECTION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Key concepts in object detection explained with the
-                                            help of YOLO
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Object-Detection.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/face-recognition.jpg">
-                                        <div class="text-overlay">
-                                            <span>FACE RECOGNITION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Face recognition and one-shot learning with Siamese
-                                            networks</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Face-Recognition.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/neural-style-transfer.png">
-                                        <div class="text-overlay">
-                                            <span>NEURAL STYLE TRANSFER</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Logic and maths behind remarkable style transfer
-                                            effects</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Neural-Style-Transfer.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <hr>
-                            </div>
-                            <div class="col-auto">Natural Language Processing</div>
-                            <div class="col">
-                                <hr>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/rnns.jpg">
-                                        <div class="text-overlay">
-                                            <span>RECURRENT NEURAL NETWORKS</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Fundamentals and main building blocks of recurrent
-                                            neural networks
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/RNNs.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/word-embeddings.png">
-                                        <div class="text-overlay">
-                                            <span>WORD EMBEDDINGS</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">A set of basic modeling and feature learning techniques
-                                            for NLP</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Word-Embeddings.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/nmt.png">
-                                        <div class="text-overlay">
-                                            <span>NEURAL MACHINE TRANSLATION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Text translation with deep learning and sequence models
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/NMT.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/attention-mechanism.jpg">
-                                        <div class="text-overlay">
-                                            <span>ATTENTION MECHANISM</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">A brief overview of attention mechanism for learning
-                                            long-range
-                                            dependencies</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Attention-Mechanism.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <div class="img-container">
-                                        <img class="card-img-top" src="img/speech-recognition.png">
-                                        <div class="text-overlay">
-                                            <span>SPEECH RECOGNITION</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">A common approach of speech recognition using
-                                            spectrograms</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Speech-Recognition.ipynb"
-                                                    target="_blank" role="button"
-                                                    class="btn btn-sm btn-outline-secondary">View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="container" id="notes-container">
+                        
                     </div>
                 </div>
             </div>
@@ -506,6 +107,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
+    <script src="cards.js"></script>
 </body>
 
 </html>

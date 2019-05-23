@@ -11,7 +11,7 @@
 
 @media (min-width: 768px) {
     .jumbotron {
-        padding-top: calc(var(--jumbotron-padding-y) * 0);
+        padding-top: calc(var(--jumbotron-padding-y));
         padding-bottom: calc(var(--jumbotron-padding-y));
     }
 }
