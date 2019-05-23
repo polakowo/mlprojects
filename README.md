@@ -1,1 +1,1 @@
-Visit https://polakowo.github.io/machine-learning/ for overview
+https://polakowo.github.io/machine-learning/
