@@ -1,0 +1,1 @@
+Predict total sales for every product and store in the next month by using GBMs, linear regression, neural networks, and ensembles. The project is part of the [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales) competition.

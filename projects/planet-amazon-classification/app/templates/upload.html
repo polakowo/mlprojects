@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>planet-amazon</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div class="custom-file">
+                        <input type="file" name="files" multiple>
+                    </div>
+                    <input type="submit" value="Submit" name="submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            margin-top: 32px;
+        }
+        .custom-file {
+            margin-bottom: 16px;
+        }
+    </style>
+</body>
+
+</html>
