@@ -45,6 +45,7 @@ footer p {
     background-color: #444;
     position: relative;
     display: inline-block;
+    overflow: hidden;
 }
 
 .card-img-top {
@@ -54,6 +55,12 @@ footer p {
     opacity: 0.5;
     filter: alpha(opacity=50);
     object-fit: cover;
+    transition: opacity .5s;
+}
+
+.box-shadow:hover .card-img-top {
+    opacity: 0.7;
+    transition: opacity .5s;
 }
 
 .text-overlay {
