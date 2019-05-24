@@ -71,6 +71,14 @@ cards = [{
     "section": "Trading",
     "category": "projects"
 }, {
+    "img_url": "img/vector-bt.jpg",
+    "title": "BACKTESTING AND TRADE OPTIMIZATION",
+    "description": "Apply a trading system to historical data to find the best strategy",
+    "tags": [],
+    "url": "https://github.com/polakowo/vector-bt",
+    "section": "Trading",
+    "category": "projects"
+}, {
     "img_url": "img/airbus-ship-segmentation.png",
     "title": "AIRBUS SHIP SEGMENTATION",
     "description": "Build a model that detects ships in satellite images",
