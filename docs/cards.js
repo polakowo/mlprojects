@@ -1,4 +1,4 @@
-$.getJSON("cards.json", function (cards) {
+$.getJSON("https://polakowo.github.io/machine-learning/cards.json", function (cards) {
     const generate_section = (name) => $(`
     <div class="row">
         <div class="col">
