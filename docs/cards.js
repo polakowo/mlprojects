@@ -119,7 +119,7 @@ cards = [{
     "section": "Miscellaneous",
     "category": "projects"
 }, {
-    "img_url": "img/tree-based-models.jpg",
+    "img_url": "img/tree-based-models.png",
     "title": "TREE-BASED MODELS",
     "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
     "tags": [],
