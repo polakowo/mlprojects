@@ -52,7 +52,7 @@ cards = [{
     "description": "Perform analysis on the most comprehensive open-source database on terrorist events",
     "tags": ['sklearn', 'D3.js'],
     "url": "https://polakowo.github.io/gtd-analysis/project/",
-    "section": "Social Data & Graphs",
+    "section": "Social Data",
     "category": "projects"
 }, {
     "img_url": "img/imdb.jpg",
@@ -60,7 +60,7 @@ cards = [{
     "description": "Perform network and sentiment analysis on the IMDB database",
     "tags": ['sklearn', 'NetworkX', 'NLTK'],
     "url": "https://polakowo.github.io/oscarobber/",
-    "section": "Social Data & Graphs",
+    "section": "Social Data",
     "category": "projects"
 }, {
     "img_url": "img/cryptoz.jpg",
