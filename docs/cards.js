@@ -123,15 +123,15 @@ cards = [{
     "title": "FIELD OF DEEP LEARNING",
     "description": "An introduction to deep artificial neural networks and deep learning",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Deep-Learning.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Deep-Learning.ipynb",
     "section": "General",
     "category": "notes"
 }, {
-    "img_url": "img/ml-strategy.jpg",
-    "title": "MACHINE LEARNING STRATEGY",
-    "description": "Tips on how to build a successful machine learning project",
+    "img_url": "img/dl-strategy.jpg",
+    "title": "DEEP LEARNING STRATEGY",
+    "description": "Tips on how to build a successful deep learning project",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/ML-Strategy.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/DL-Strategy.ipynb",
     "section": "General",
     "category": "notes"
 }, {
@@ -139,7 +139,7 @@ cards = [{
     "title": "BACKPROPAGATION",
     "description": "Backpropagation and gradient checking for efficiently training neural networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Backpropagation.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Backpropagation.ipynb",
     "section": "Fundamentals",
     "category": "notes"
 }, {
@@ -147,7 +147,7 @@ cards = [{
     "title": "ACTIVATION FUNCTIONS",
     "description": "Commonly used activation functions for diverse architectures",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Activation-Functions.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Activation-Functions.ipynb",
     "section": "Fundamentals",
     "category": "notes"
 }, {
@@ -155,7 +155,7 @@ cards = [{
     "title": "WEIGHTS INITIALIZATION",
     "description": "Dangers of bad weight initialization and the best-practice methods to use",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Initialization.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Initialization.ipynb",
     "section": "Fundamentals",
     "category": "notes"
 }, {
@@ -163,7 +163,7 @@ cards = [{
     "title": "OPTIMIZATION",
     "description": "Types of optimization algorithms used in neural networks and ways to optimize gradient descent",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Optimization.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Optimization.ipynb",
     "section": "Fundamentals",
     "category": "notes"
 }, {
@@ -171,7 +171,7 @@ cards = [{
     "title": "REGULARIZATION",
     "description": "Regularization and data augmentation as ways to adjust bias and variance",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Regularization.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Regularization.ipynb",
     "section": "Fundamentals",
     "category": "notes"
 }, {
@@ -179,7 +179,7 @@ cards = [{
     "title": "CONVOLUTIONAL NEURAL NETWORKS",
     "description": "Fundamentals and main building blocks of convolutional neural networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/ConvNets.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ConvNets.ipynb",
     "section": "Computer Vision",
     "category": "notes"
 }, {
@@ -187,7 +187,7 @@ cards = [{
     "title": "ARCHITECTURES",
     "description": "Evolution and comparison of commonly used architectures for convolutional networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/ConvNet-Architectures.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ConvNet-Architectures.ipynb",
     "section": "Computer Vision",
     "category": "notes"
 }, {
@@ -195,7 +195,7 @@ cards = [{
     "title": "OBJECT DETECTION",
     "description": "Key concepts in object detection explained with the help of YOLO",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Object-Detection.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Object-Detection.ipynb",
     "section": "Computer Vision",
     "category": "notes"
 }, {
@@ -203,7 +203,7 @@ cards = [{
     "title": "FACE RECOGNITION",
     "description": "Face recognition and one-shot learning with Siamese networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Face-Recognition.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Face-Recognition.ipynb",
     "section": "Computer Vision",
     "category": "notes"
 }, {
@@ -211,7 +211,7 @@ cards = [{
     "title": "NEURAL STYLE TRANSFER",
     "description": "Logic and maths behind remarkable style transfer effects",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Neural-Style-Transfer.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Neural-Style-Transfer.ipynb",
     "section": "Computer Vision",
     "category": "notes"
 }, {
@@ -219,7 +219,7 @@ cards = [{
     "title": "RECURRENT NEURAL NETWORKS",
     "description": "Fundamentals and main building blocks of recurrent neural networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/RNNs.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/RNNs.ipynb",
     "section": "Natural Language Processing",
     "category": "notes"
 }, {
@@ -227,7 +227,7 @@ cards = [{
     "title": "WORD EMBEDDINGS",
     "description": "A set of basic modeling and feature learning techniques for NLP",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Word-Embeddings.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Word-Embeddings.ipynb",
     "section": "Natural Language Processing",
     "category": "notes"
 }, {
@@ -235,7 +235,7 @@ cards = [{
     "title": "NEURAL MACHINE TRANSLATION",
     "description": "Text translation with deep learning and sequence models",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/NMT.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/NMT.ipynb",
     "section": "Natural Language Processing",
     "category": "notes"
 }, {
@@ -243,7 +243,7 @@ cards = [{
     "title": "ATTENTION MECHANISM",
     "description": "A brief overview of attention mechanism for learning long-range dependencies",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Attention-Mechanism.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Attention-Mechanism.ipynb",
     "section": "Natural Language Processing",
     "category": "notes"
 }, {
@@ -251,7 +251,7 @@ cards = [{
     "title": "SPEECH RECOGNITION",
     "description": "A common approach of speech recognition using spectrograms",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/notes/Speech-Recognition.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Speech-Recognition.ipynb",
     "section": "Natural Language Processing",
     "category": "notes"
 }]
