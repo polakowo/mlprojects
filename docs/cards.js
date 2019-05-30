@@ -119,6 +119,14 @@ cards = [{
     "section": "Miscellaneous",
     "category": "projects"
 }, {
+    "img_url": "img/tree-based-models.jpg",
+    "title": "TREE-BASED MODELS",
+    "description": "Decision Trees, Random Forests and Boosting Trees",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
+    "section": "General",
+    "category": "ml-notes"
+}, {
     "img_url": "img/deep-learning.png",
     "title": "FIELD OF DEEP LEARNING",
     "description": "An introduction to deep artificial neural networks and deep learning",
@@ -241,7 +249,7 @@ cards = [{
 }, {
     "img_url": "img/attention-mechanism.jpg",
     "title": "ATTENTION MECHANISM",
-    "description": "A brief overview of attention mechanism for learning long-range dependencies",
+    "description": "A brief overview of attention mechanism for capturing long-range dependencies",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/AttentionMechanism.ipynb",
     "section": "Natural Language Processing",
