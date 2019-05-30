@@ -15,6 +15,14 @@ cards = [{
     "section": "Open Databases",
     "category": "projects"
 }, {
+    "img_url": "img/sap-hana.png",
+    "title": "OCCUPATIONAL FRAUD DETECTION",
+    "description": "Detect patterns of occupational fraud activity in ERP systems using SAP HANA",
+    "tags": ['SAP HANA', 'SAP ERP', 'XSJS', 'SAPUI5'],
+    "url": "",
+    "section": "Big Data",
+    "category": "projects"
+}, {
     "img_url": "img/1c-sales-prediction.png",
     "title": "1C COMPANY SALES PREDICTION",
     "description": "Predict total sales for every product and store in the next month",
@@ -51,14 +59,6 @@ cards = [{
     "title": "DIGITAL TRANSFORMATION LANDSCAPE ANALYSIS",
     "description": "A holistic analysis of simultaneous digital transformation of organizations",
     "tags": ['NetworkX'],
-    "url": "",
-    "section": "Business",
-    "category": "projects"
-}, {
-    "img_url": "img/sap-hana.png",
-    "title": "OCCUPATIONAL FRAUD DETECTION",
-    "description": "Detect patterns of occupational fraud activity in ERP systems using SAP HANA",
-    "tags": ['SAP HANA', 'SAP ERP', 'XSJS', 'SAPUI5'],
     "url": "",
     "section": "Business",
     "category": "projects"
