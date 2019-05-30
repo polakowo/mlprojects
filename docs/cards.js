@@ -125,7 +125,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Deep-Learning.ipynb",
     "section": "General",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/dl-strategy.jpg",
     "title": "DEEP LEARNING STRATEGY",
@@ -133,7 +133,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/DL-Strategy.ipynb",
     "section": "General",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/backpropagation.png",
     "title": "BACKPROPAGATION",
@@ -141,7 +141,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Backpropagation.ipynb",
     "section": "Fundamentals",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/activation-functions.png",
     "title": "ACTIVATION FUNCTIONS",
@@ -149,7 +149,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Activation-Functions.ipynb",
     "section": "Fundamentals",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/initialization.png",
     "title": "WEIGHTS INITIALIZATION",
@@ -157,7 +157,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Initialization.ipynb",
     "section": "Fundamentals",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/optimization.png",
     "title": "OPTIMIZATION",
@@ -165,7 +165,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Optimization.ipynb",
     "section": "Fundamentals",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/regularization.png",
     "title": "REGULARIZATION",
@@ -173,7 +173,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Regularization.ipynb",
     "section": "Fundamentals",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/convnets.png",
     "title": "CONVOLUTIONAL NEURAL NETWORKS",
@@ -181,7 +181,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ConvNets.ipynb",
     "section": "Computer Vision",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/convnet-architectures.png",
     "title": "ARCHITECTURES",
@@ -189,7 +189,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ConvNet-Architectures.ipynb",
     "section": "Computer Vision",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/object-detection.png",
     "title": "OBJECT DETECTION",
@@ -197,7 +197,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Object-Detection.ipynb",
     "section": "Computer Vision",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/face-recognition.jpg",
     "title": "FACE RECOGNITION",
@@ -205,7 +205,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Face-Recognition.ipynb",
     "section": "Computer Vision",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/neural-style-transfer.png",
     "title": "NEURAL STYLE TRANSFER",
@@ -213,7 +213,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Neural-Style-Transfer.ipynb",
     "section": "Computer Vision",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/rnns.jpg",
     "title": "RECURRENT NEURAL NETWORKS",
@@ -221,7 +221,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/RNNs.ipynb",
     "section": "Natural Language Processing",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/word-embeddings.png",
     "title": "WORD EMBEDDINGS",
@@ -229,7 +229,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Word-Embeddings.ipynb",
     "section": "Natural Language Processing",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/nmt.png",
     "title": "NEURAL MACHINE TRANSLATION",
@@ -237,7 +237,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/NMT.ipynb",
     "section": "Natural Language Processing",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/attention-mechanism.jpg",
     "title": "ATTENTION MECHANISM",
@@ -245,7 +245,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Attention-Mechanism.ipynb",
     "section": "Natural Language Processing",
-    "category": "notes"
+    "category": "dl-notes"
 }, {
     "img_url": "img/speech-recognition.png",
     "title": "SPEECH RECOGNITION",
@@ -253,7 +253,7 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Speech-Recognition.ipynb",
     "section": "Natural Language Processing",
-    "category": "notes"
+    "category": "dl-notes"
 }]
 
 const generate_section = (name) => $(`
