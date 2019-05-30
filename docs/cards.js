@@ -121,7 +121,7 @@ cards = [{
 }, {
     "img_url": "img/tree-based-models.jpg",
     "title": "TREE-BASED MODELS",
-    "description": "Overview of tree-based methods such as decision trees, random forests and boosting trees",
+    "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
     "section": "General",
