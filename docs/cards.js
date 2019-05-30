@@ -1,20 +1,4 @@
 cards = [{
-    "img_url": "img/gtd.png",
-    "title": "GLOBAL TERRORISM DATABASE",
-    "description": "Perform analysis on the most comprehensive open-source database on terrorist events",
-    "tags": ['sklearn', 'D3.js'],
-    "url": "https://polakowo.github.io/gtd-analysis/project/",
-    "section": "Open Databases",
-    "category": "projects"
-}, {
-    "img_url": "img/imdb.jpg",
-    "title": "IMDB DATABASE",
-    "description": "Perform network and sentiment analysis on the IMDB database",
-    "tags": ['sklearn', 'NetworkX', 'NLTK'],
-    "url": "https://polakowo.github.io/oscarobber/",
-    "section": "Open Databases",
-    "category": "projects"
-}, {
     "img_url": "img/sap-hana.png",
     "title": "OCCUPATIONAL FRAUD DETECTION",
     "description": "Detect patterns of occupational fraud activity in ERP systems using SAP HANA",
@@ -61,6 +45,22 @@ cards = [{
     "tags": ['NetworkX'],
     "url": "",
     "section": "Business",
+    "category": "projects"
+}, {
+    "img_url": "img/gtd.png",
+    "title": "GLOBAL TERRORISM DATABASE",
+    "description": "Perform analysis on the most comprehensive open-source database on terrorist events",
+    "tags": ['sklearn', 'D3.js'],
+    "url": "https://polakowo.github.io/gtd-analysis/project/",
+    "section": "Data Analysis & Visualization",
+    "category": "projects"
+}, {
+    "img_url": "img/imdb.jpg",
+    "title": "IMDB DATABASE",
+    "description": "Perform network and sentiment analysis on the IMDB database",
+    "tags": ['sklearn', 'NetworkX', 'NLTK'],
+    "url": "https://polakowo.github.io/oscarobber/",
+    "section": "Data Analysis & Visualization",
     "category": "projects"
 }, {
     "img_url": "img/cryptoz.jpg",
