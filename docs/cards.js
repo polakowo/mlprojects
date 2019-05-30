@@ -123,7 +123,7 @@ cards = [{
     "title": "FIELD OF DEEP LEARNING",
     "description": "An introduction to deep artificial neural networks and deep learning",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Deep-Learning.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/DeepLearning.ipynb",
     "section": "General",
     "category": "dl-notes"
 }, {
@@ -131,7 +131,7 @@ cards = [{
     "title": "DEEP LEARNING STRATEGY",
     "description": "Tips on how to build a successful deep learning project",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/DL-Strategy.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/DLStrategy.ipynb",
     "section": "General",
     "category": "dl-notes"
 }, {
@@ -147,7 +147,7 @@ cards = [{
     "title": "ACTIVATION FUNCTIONS",
     "description": "Commonly used activation functions for diverse architectures",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Activation-Functions.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ActivationFunctions.ipynb",
     "section": "Fundamentals",
     "category": "dl-notes"
 }, {
@@ -187,7 +187,7 @@ cards = [{
     "title": "ARCHITECTURES",
     "description": "Evolution and comparison of commonly used architectures for convolutional networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ConvNet-Architectures.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ConvNetArchitectures.ipynb",
     "section": "Computer Vision",
     "category": "dl-notes"
 }, {
@@ -195,7 +195,7 @@ cards = [{
     "title": "OBJECT DETECTION",
     "description": "Key concepts in object detection explained with the help of YOLO",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Object-Detection.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/ObjectDetection.ipynb",
     "section": "Computer Vision",
     "category": "dl-notes"
 }, {
@@ -203,7 +203,7 @@ cards = [{
     "title": "FACE RECOGNITION",
     "description": "Face recognition and one-shot learning with Siamese networks",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Face-Recognition.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/FaceRecognition.ipynb",
     "section": "Computer Vision",
     "category": "dl-notes"
 }, {
@@ -211,7 +211,7 @@ cards = [{
     "title": "NEURAL STYLE TRANSFER",
     "description": "Logic and maths behind remarkable style transfer effects",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Neural-Style-Transfer.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/NeuralStyleTransfer.ipynb",
     "section": "Computer Vision",
     "category": "dl-notes"
 }, {
@@ -227,7 +227,7 @@ cards = [{
     "title": "WORD EMBEDDINGS",
     "description": "A set of basic modeling and feature learning techniques for NLP",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Word-Embeddings.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/WordEmbeddings.ipynb",
     "section": "Natural Language Processing",
     "category": "dl-notes"
 }, {
@@ -243,7 +243,7 @@ cards = [{
     "title": "ATTENTION MECHANISM",
     "description": "A brief overview of attention mechanism for learning long-range dependencies",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Attention-Mechanism.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/AttentionMechanism.ipynb",
     "section": "Natural Language Processing",
     "category": "dl-notes"
 }, {
@@ -251,7 +251,7 @@ cards = [{
     "title": "SPEECH RECOGNITION",
     "description": "A common approach of speech recognition using spectrograms",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/Speech-Recognition.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/SpeechRecognition.ipynb",
     "section": "Natural Language Processing",
     "category": "dl-notes"
 }]
