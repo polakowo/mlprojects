@@ -7,6 +7,14 @@ cards = [{
     "section": "Big Data",
     "category": "projects"
 }, {
+    "img_url": "img/idt.jpg",
+    "title": "DIGITAL TRANSFORMATION LANDSCAPE ANALYSIS",
+    "description": "A holistic analysis of simultaneous digital transformation of organizations",
+    "tags": ['NetworkX'],
+    "url": "",
+    "section": "Business",
+    "category": "projects"
+}, {
     "img_url": "img/1c-sales-prediction.png",
     "title": "1C COMPANY SALES PREDICTION",
     "description": "Predict total sales for every product and store in the next month",
@@ -36,14 +44,6 @@ cards = [{
     "description": "Build a movie recommender system using item-based collaborative filtering",
     "tags": ['fastai'],
     "url": "https://github.com/polakowo/machine-learning/tree/master/projects/movielens-recommendation",
-    "section": "Business",
-    "category": "projects"
-}, {
-    "img_url": "img/idt.jpg",
-    "title": "DIGITAL TRANSFORMATION LANDSCAPE ANALYSIS",
-    "description": "A holistic analysis of simultaneous digital transformation of organizations",
-    "tags": ['NetworkX'],
-    "url": "",
     "section": "Business",
     "category": "projects"
 }, {
