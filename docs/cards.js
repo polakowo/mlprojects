@@ -127,7 +127,7 @@ cards = [{
     "section": "General",
     "category": "dl-notes"
 }, {
-    "img_url": "img/dl-strategy.jpg",
+    "img_url": "img/dl-strategy.png",
     "title": "DEEP LEARNING STRATEGY",
     "description": "Tips on how to build a successful deep learning project",
     "tags": [],
@@ -175,7 +175,7 @@ cards = [{
     "section": "Fundamentals",
     "category": "dl-notes"
 }, {
-    "img_url": "img/convnets.png",
+    "img_url": "img/convnets.jpg",
     "title": "CONVOLUTIONAL NEURAL NETWORKS",
     "description": "Fundamentals and main building blocks of convolutional neural networks",
     "tags": [],
