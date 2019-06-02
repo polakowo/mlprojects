@@ -119,14 +119,6 @@ cards = [{
     "section": "Miscellaneous",
     "category": "projects"
 }, {
-    "img_url": "img/tree-based-models.jpg",
-    "title": "TREE-BASED MODELS",
-    "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
-    "section": "General",
-    "category": "ml-notes"
-}, {
     "img_url": "img/deep-learning.png",
     "title": "FIELD OF DEEP LEARNING",
     "description": "An introduction to deep artificial neural networks and deep learning",
@@ -262,6 +254,14 @@ cards = [{
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/SpeechRecognition.ipynb",
     "section": "Natural Language Processing",
     "category": "dl-notes"
+}, {
+    "img_url": "img/tree-based-models.jpg",
+    "title": "TREE-BASED MODELS",
+    "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/TreeBasedModels.ipynb",
+    "section": "Models",
+    "category": "kaggle-notes"
 }]
 
 const generate_section = (name) => $(`
