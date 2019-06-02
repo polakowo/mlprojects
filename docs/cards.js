@@ -262,6 +262,14 @@ cards = [{
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/TreeBasedModels.ipynb",
     "section": "Models",
     "category": "kaggle-notes"
+}, {
+    "img_url": "img/feature-preprocessing.jpg",
+    "title": "FEATURE PREPROCESSING",
+    "description": "Preprocessing steps for various types of features and models",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/FeaturePreprocessing.ipynb",
+    "section": "Features",
+    "category": "kaggle-notes"
 }]
 
 const generate_section = (name) => $(`
