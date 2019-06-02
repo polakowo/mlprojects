@@ -31,7 +31,7 @@ cards = [{
     "section": "Business",
     "category": "projects"
 }, {
-    "img_url": "img/credit-card-fraud-detection.jpg",
+    "img_url": "img/credit-card-fraud-detection.png",
     "title": "CREDIT CARD FRAUD DETECTION",
     "description": "Recognize fraudulent credit card transactions with anomaly detection",
     "tags": ['sklearn', 'PyTorch', 'fastai'],
