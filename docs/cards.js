@@ -271,7 +271,7 @@ cards = [{
     "section": "Features",
     "category": "kaggle-notes"
 }, {
-    "img_url": "img/metric-optimization.png",
+    "img_url": "img/metric-optimization.gif",
     "title": "METRIC OPTIMIZATION",
     "description": "Performance metrics and their optimization",
     "tags": [],
