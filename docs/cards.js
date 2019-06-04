@@ -270,6 +270,14 @@ cards = [{
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/FeaturePreprocessing.ipynb",
     "section": "Features",
     "category": "kaggle-notes"
+}, {
+    "img_url": "img/metric-optimization.png",
+    "title": "METRIC OPTIMIZATION",
+    "description": "Performance metrics and their optimization",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/MetricOptimization.ipynb",
+    "section": "Optimization",
+    "category": "kaggle-notes"
 }]
 
 const generate_section = (name) => $(`
