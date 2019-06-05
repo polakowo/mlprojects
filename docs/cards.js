@@ -271,7 +271,7 @@ cards = [{
     "section": "Features",
     "category": "kaggle-notes"
 }, {
-    "img_url": "img/feature-extraction.jpg",
+    "img_url": "img/feature-extraction.png",
     "title": "FEATURE EXTRACTION",
     "description": "Generate new features with advanced techniques",
     "tags": [],
