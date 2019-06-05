@@ -271,6 +271,14 @@ cards = [{
     "section": "Features",
     "category": "kaggle-notes"
 }, {
+    "img_url": "img/feature-preprocessing.jpg",
+    "title": "FEATURE EXTRACTION",
+    "description": "Generate new features with advanced techniques",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/FeatureExtraction.ipynb",
+    "section": "Features",
+    "category": "kaggle-notes"
+}, {
     "img_url": "img/metric-optimization.gif",
     "title": "METRIC OPTIMIZATION",
     "description": "Performance metrics and their optimization",
