@@ -264,18 +264,18 @@ cards = [{
     "category": "kaggle-notes"
 }, {
     "img_url": "img/feature-preprocessing.jpg",
-    "title": "FEATURE PREPROCESSING",
-    "description": "Preprocessing steps for various types of features and models",
+    "title": "FEATURE PREPROCESSING AND EXTRACTION",
+    "description": "Preprocessing and extraction steps for various types of features and models",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/FeaturePreprocessing.ipynb",
     "section": "Features",
     "category": "kaggle-notes"
 }, {
-    "img_url": "img/feature-extraction.png",
-    "title": "FEATURE EXTRACTION",
+    "img_url": "img/advanced-features.png",
+    "title": "ADVANCED FEATURES",
     "description": "Generate new features with advanced techniques",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/FeatureExtraction.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/AdvancedFeatures.ipynb",
     "section": "Features",
     "category": "kaggle-notes"
 }, {
