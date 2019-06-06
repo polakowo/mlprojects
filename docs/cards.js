@@ -255,6 +255,14 @@ cards = [{
     "section": "Natural Language Processing",
     "category": "dl-notes"
 }, {
+    "img_url": "img/kaggle-strategy.png",
+    "title": "KAGGLE STRATEGY",
+    "description": "Tips and tricks on how to succeed in Kaggle competitions",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/KaggleStrategy.ipynb",
+    "section": "General",
+    "category": "kaggle-notes"
+}, {
     "img_url": "img/tree-based-models.jpg",
     "title": "TREE-BASED MODELS",
     "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
