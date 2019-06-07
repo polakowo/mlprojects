@@ -255,45 +255,45 @@ cards = [{
     "section": "Natural Language Processing",
     "category": "dl-notes"
 }, {
-    "img_url": "img/kaggle-strategy.png",
-    "title": "KAGGLE STRATEGY",
-    "description": "Tips and tricks on how to succeed in Kaggle competitions",
+    "img_url": "img/competitive-ml.png",
+    "title": "COMPETITIVE MACHINE LEARNING",
+    "description": "Tips and tricks on how to succeed in a machine learning competition",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/KaggleStrategy.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/CompetitiveML.ipynb",
     "section": "General",
-    "category": "kaggle-notes"
+    "category": "ml-notes"
 }, {
     "img_url": "img/tree-based-models.jpg",
     "title": "TREE-BASED MODELS",
     "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/TreeBasedModels.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
     "section": "Models",
-    "category": "kaggle-notes"
+    "category": "ml-notes"
 }, {
     "img_url": "img/feature-preprocessing.jpg",
     "title": "FEATURE PREPROCESSING AND EXTRACTION",
     "description": "Preprocessing and extraction steps for various types of features and models",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/FeaturePreprocessing.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/FeaturePreprocessing.ipynb",
     "section": "Features",
-    "category": "kaggle-notes"
+    "category": "ml-notes"
 }, {
     "img_url": "img/advanced-features.png",
     "title": "ADVANCED FEATURES",
     "description": "Generate new features with advanced techniques",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/AdvancedFeatures.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/AdvancedFeatures.ipynb",
     "section": "Features",
-    "category": "kaggle-notes"
+    "category": "ml-notes"
 }, {
     "img_url": "img/metric-optimization.gif",
     "title": "METRIC OPTIMIZATION",
     "description": "Performance metrics and their optimization",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/kaggle-notes/MetricOptimization.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/MetricOptimization.ipynb",
     "section": "Optimization",
-    "category": "kaggle-notes"
+    "category": "ml-notes"
 }]
 
 const generate_section = (name) => $(`
