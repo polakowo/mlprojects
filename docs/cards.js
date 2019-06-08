@@ -265,9 +265,17 @@ cards = [{
 }, {
     "img_url": "img/tree-based-models.jpg",
     "title": "TREE-BASED MODELS",
-    "description": "Tree-based methods such as decision trees, random forests, and boosting trees",
+    "description": "Tree-based methods such as decision trees, random forests, and boosted trees",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
+    "section": "Models",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/ensemble-methods.jpg.jpg",
+    "title": "ENSEMBLE METHODS",
+    "description": "Combine predictions from multiple models to improve the overall performance",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EnsembleMethods.ipynb",
     "section": "Models",
     "category": "ml-notes"
 }, {
