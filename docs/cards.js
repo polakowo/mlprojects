@@ -271,7 +271,7 @@ cards = [{
     "section": "Models",
     "category": "ml-notes"
 }, {
-    "img_url": "img/ensemble-methods.jpg.jpg",
+    "img_url": "img/ensemble-methods.jpg",
     "title": "ENSEMBLE METHODS",
     "description": "Combine predictions from multiple models to improve the overall performance",
     "tags": [],
