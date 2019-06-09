@@ -302,6 +302,14 @@ cards = [{
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/MetricOptimization.ipynb",
     "section": "Optimization",
     "category": "ml-notes"
+}, {
+    "img_url": "img/validation-schemes.png",
+    "title": "VALIDATION SCHEMES",
+    "description": "Most common validation strategies for base and meta models",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/ValidationSchemes.ipynb",
+    "section": "Optimization",
+    "category": "ml-notes"
 }]
 
 const generate_section = (name) => $(`
