@@ -303,7 +303,7 @@ cards = [{
     "section": "Optimization",
     "category": "ml-notes"
 }, {
-    "img_url": "img/validation-schemes.png",
+    "img_url": "img/validation-schemes.jpg",
     "title": "VALIDATION SCHEMES",
     "description": "Most common validation strategies for base and meta models",
     "tags": [],
