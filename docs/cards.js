@@ -260,7 +260,7 @@ cards = [{
     "description": "Tips and tricks on how to succeed in a machine learning competition",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/CompetitiveML.ipynb",
-    "section": "General",
+    "section": "Competitions",
     "category": "ml-notes"
 }, {
     "img_url": "img/tree-based-models.jpg",
@@ -305,7 +305,7 @@ cards = [{
 }, {
     "img_url": "img/validation-schemes.jpg",
     "title": "VALIDATION SCHEMES",
-    "description": "Most common validation strategies for base and meta models",
+    "description": "Most common validation strategies for different models and data distributions",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/ValidationSchemes.ipynb",
     "section": "Optimization",
