@@ -305,9 +305,17 @@ cards = [{
 }, {
     "img_url": "img/validation-schemes.jpg",
     "title": "VALIDATION SCHEMES",
-    "description": "Most common validation strategies for different models and data distributions",
+    "description": "Correct validation schemes for different models and data distributions",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/ValidationSchemes.ipynb",
+    "section": "Optimization",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/hyperopt.png",
+    "title": "HYPERPARAMETER OPTIMIZATION",
+    "description": "Search for optimal hyperparameters to get the best score",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/HyperOpt.ipynb",
     "section": "Optimization",
     "category": "ml-notes"
 }]
