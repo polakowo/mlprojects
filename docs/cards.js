@@ -311,7 +311,7 @@ cards = [{
     "section": "Optimization",
     "category": "ml-notes"
 }, {
-    "img_url": "img/hyperopt.jpg",
+    "img_url": "img/hyperopt.png",
     "title": "HYPERPARAMETER OPTIMIZATION",
     "description": "Search for optimal hyperparameters to get the best score",
     "tags": [],
