@@ -263,9 +263,9 @@ cards = [{
     "section": "Competitions",
     "category": "ml-notes"
 }, {
-    "img_url": "img/linear-models.jpg",
+    "img_url": "img/linear-models.png",
     "title": "LINEAR MODELS",
-    "description": "Regression models, SVMs and online learning",
+    "description": "Regression models, SVMs, and online learning",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/LinearModels.ipynb",
     "section": "Models",
@@ -273,7 +273,7 @@ cards = [{
 }, {
     "img_url": "img/tree-based-models.jpg",
     "title": "TREE-BASED MODELS",
-    "description": "Tree-based methods such as decision trees, random forests, and boosted trees",
+    "description": "Decision trees, random forests, and boosted trees",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
     "section": "Models",
