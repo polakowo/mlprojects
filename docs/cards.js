@@ -255,22 +255,6 @@ cards = [{
     "section": "Natural Language Processing",
     "category": "dl-notes"
 }, {
-    "img_url": "img/competitive-ml.png",
-    "title": "COMPETITIVE MACHINE LEARNING",
-    "description": "Tips and tricks on how to succeed in a machine learning competition",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/CompetitiveML.ipynb",
-    "section": "Competitions",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/data-leakage.gif",
-    "title": "DATA LEAKAGE",
-    "description": "Data leakage is a problem when running a machine learning competition",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/DataLeakage.ipynb",
-    "section": "Competitions",
-    "category": "ml-notes"
-}, {
     "img_url": "img/linear-models.png",
     "title": "LINEAR MODELS",
     "description": "Regression models, SVMs, and online learning",
@@ -333,6 +317,22 @@ cards = [{
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/HyperOpt.ipynb",
     "section": "Optimization",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/competitive-ml.png",
+    "title": "COMPETITIVE MACHINE LEARNING",
+    "description": "Tips and tricks on how to succeed in a machine learning competition",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/CompetitiveML.ipynb",
+    "section": "Competitions",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/data-leakage.gif",
+    "title": "DATA LEAKAGE",
+    "description": "Data leakage is a problem when running a machine learning competition",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/DataLeakage.ipynb",
+    "section": "Competitions",
     "category": "ml-notes"
 }]
 
