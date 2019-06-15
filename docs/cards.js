@@ -281,7 +281,7 @@ cards = [{
 }, {
     "img_url": "img/feature-engineering.jpg",
     "title": "FEATURE ENGINEERING",
-    "description": "Feature preprocessing, extraction and selection for various types of features and models",
+    "description": "Feature extraction, transformation and selection",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/FeatureEngineering.ipynb",
     "section": "Features",
