@@ -263,6 +263,14 @@ cards = [{
     "section": "Competitions",
     "category": "ml-notes"
 }, {
+    "img_url": "img/data-leakage.gif",
+    "title": "DATA LEAKAGE",
+    "description": "Data leakage is a problem when running a machine learning competition",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/DataLeakage.ipynb",
+    "section": "Competitions",
+    "category": "ml-notes"
+}, {
     "img_url": "img/linear-models.png",
     "title": "LINEAR MODELS",
     "description": "Regression models, SVMs, and online learning",
