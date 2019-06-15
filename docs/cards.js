@@ -279,11 +279,11 @@ cards = [{
     "section": "Models",
     "category": "ml-notes"
 }, {
-    "img_url": "img/feature-preprocessing.jpg",
-    "title": "FEATURE PREPROCESSING AND EXTRACTION",
-    "description": "Preprocessing and extraction steps for various types of features and models",
+    "img_url": "img/feature-engineering.jpg",
+    "title": "FEATURE ENGINEERING",
+    "description": "Feature preprocessing, extraction and selection for various types of features and models",
     "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/FeaturePreprocessing.ipynb",
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/FeatureEngineering.ipynb",
     "section": "Features",
     "category": "ml-notes"
 }, {
