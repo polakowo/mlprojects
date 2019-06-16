@@ -281,7 +281,7 @@ cards = [{
 }, {
     "img_url": "img/eda.png",
     "title": "EXPLORATORY DATA ANALYSIS",
-    "description": "Explore patterns in data by using various data analysis techniques",
+    "description": "Tools and techniques for exploring patterns in data",
     "tags": [],
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EDA.ipynb",
     "section": "Features",
