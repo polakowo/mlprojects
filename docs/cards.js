@@ -279,6 +279,14 @@ cards = [{
     "section": "Models",
     "category": "ml-notes"
 }, {
+    "img_url": "img/eda.png",
+    "title": "EXPLORATORY DATA ANALYSIS",
+    "description": "Explore patterns in data by using various data analysis techniques",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EDA.ipynb",
+    "section": "Features",
+    "category": "ml-notes"
+}, {
     "img_url": "img/feature-engineering.jpg",
     "title": "FEATURE ENGINEERING",
     "description": "Feature extraction, transformation and selection",
