@@ -119,6 +119,94 @@ cards = [{
     "section": "Miscellaneous",
     "category": "projects"
 }, {
+    "img_url": "img/linear-models.png",
+    "title": "LINEAR MODELS",
+    "description": "Regression models, SVMs, and online learning",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/LinearModels.ipynb",
+    "section": "Models",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/tree-based-models.jpg",
+    "title": "TREE-BASED MODELS",
+    "description": "Decision trees, random forests, and boosted trees",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
+    "section": "Models",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/ensemble-methods.jpg",
+    "title": "ENSEMBLE METHODS",
+    "description": "Combine predictions from multiple models to improve the overall performance",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EnsembleMethods.ipynb",
+    "section": "Models",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/eda.png",
+    "title": "EXPLORATORY DATA ANALYSIS",
+    "description": "Tools and techniques for exploring patterns in data",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EDA.ipynb",
+    "section": "Features",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/feature-engineering.jpg",
+    "title": "FEATURE ENGINEERING",
+    "description": "Feature extraction, transformation and selection",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/FeatureEngineering.ipynb",
+    "section": "Features",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/advanced-features.png",
+    "title": "ADVANCED FEATURES",
+    "description": "Generate new features with advanced techniques",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/AdvancedFeatures.ipynb",
+    "section": "Features",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/metric-optimization.gif",
+    "title": "METRIC OPTIMIZATION",
+    "description": "Performance metrics and their optimization",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/MetricOptimization.ipynb",
+    "section": "Optimization",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/validation-schemes.jpg",
+    "title": "VALIDATION SCHEMES",
+    "description": "Correct validation schemes for different models and data distributions",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/ValidationSchemes.ipynb",
+    "section": "Optimization",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/hyperopt.png",
+    "title": "HYPERPARAMETER OPTIMIZATION",
+    "description": "Search for optimal hyperparameters to get the best score",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/HyperOpt.ipynb",
+    "section": "Optimization",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/competitive-ml.png",
+    "title": "COMPETITIVE MACHINE LEARNING",
+    "description": "Tips and tricks on how to succeed in a machine learning competition",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/CompetitiveML.ipynb",
+    "section": "Competitions",
+    "category": "ml-notes"
+}, {
+    "img_url": "img/data-leakage.png",
+    "title": "DATA LEAKAGE",
+    "description": "Data leakage is a problem when running a machine learning competition",
+    "tags": [],
+    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/DataLeakage.ipynb",
+    "section": "Competitions",
+    "category": "ml-notes"
+}, {
     "img_url": "img/deep-learning.png",
     "title": "FIELD OF DEEP LEARNING",
     "description": "An introduction to deep artificial neural networks and deep learning",
@@ -254,94 +342,6 @@ cards = [{
     "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/dl-notes/SpeechRecognition.ipynb",
     "section": "Natural Language Processing",
     "category": "dl-notes"
-}, {
-    "img_url": "img/linear-models.png",
-    "title": "LINEAR MODELS",
-    "description": "Regression models, SVMs, and online learning",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/LinearModels.ipynb",
-    "section": "Models",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/tree-based-models.jpg",
-    "title": "TREE-BASED MODELS",
-    "description": "Decision trees, random forests, and boosted trees",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/TreeBasedModels.ipynb",
-    "section": "Models",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/ensemble-methods.jpg",
-    "title": "ENSEMBLE METHODS",
-    "description": "Combine predictions from multiple models to improve the overall performance",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EnsembleMethods.ipynb",
-    "section": "Models",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/eda.png",
-    "title": "EXPLORATORY DATA ANALYSIS",
-    "description": "Tools and techniques for exploring patterns in data",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/EDA.ipynb",
-    "section": "Features",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/feature-engineering.jpg",
-    "title": "FEATURE ENGINEERING",
-    "description": "Feature extraction, transformation and selection",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/FeatureEngineering.ipynb",
-    "section": "Features",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/advanced-features.png",
-    "title": "ADVANCED FEATURES",
-    "description": "Generate new features with advanced techniques",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/AdvancedFeatures.ipynb",
-    "section": "Features",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/metric-optimization.gif",
-    "title": "METRIC OPTIMIZATION",
-    "description": "Performance metrics and their optimization",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/MetricOptimization.ipynb",
-    "section": "Optimization",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/validation-schemes.jpg",
-    "title": "VALIDATION SCHEMES",
-    "description": "Correct validation schemes for different models and data distributions",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/ValidationSchemes.ipynb",
-    "section": "Optimization",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/hyperopt.png",
-    "title": "HYPERPARAMETER OPTIMIZATION",
-    "description": "Search for optimal hyperparameters to get the best score",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/HyperOpt.ipynb",
-    "section": "Optimization",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/competitive-ml.png",
-    "title": "COMPETITIVE MACHINE LEARNING",
-    "description": "Tips and tricks on how to succeed in a machine learning competition",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/CompetitiveML.ipynb",
-    "section": "Competitions",
-    "category": "ml-notes"
-}, {
-    "img_url": "img/data-leakage.gif",
-    "title": "DATA LEAKAGE",
-    "description": "Data leakage is a problem when running a machine learning competition",
-    "tags": [],
-    "url": "https://nbviewer.jupyter.org/github/polakowo/machine-learning/blob/master/ml-notes/DataLeakage.ipynb",
-    "section": "Competitions",
-    "category": "ml-notes"
 }]
 
 const generate_section = (name) => $(`
