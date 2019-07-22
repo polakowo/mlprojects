@@ -8,4 +8,4 @@ docker run -p 8000:8000 planet-amazon
 open http://localhost:8000
 ```
 
-![](app.png)
+![Web app screenshot](app.png)
