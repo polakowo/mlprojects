@@ -1,1 +1,3 @@
-Transfer learning is an exciting concept but a difficult one to apply in NLP tasks. Here we fine-tuned an AWD-LSTM model for sentiment analysis on Amazon product reviews and achieved 95.8% accuracy of predictions whether the review was positive or not. Tags: *transfer learning, product reviews, sentiment analysis, NLP, neural networks, Python, fastai*
+Transfer learning is an exciting concept but a difficult one to apply in NLP tasks. Here we fine-tuned an AWD-LSTM model for sentiment analysis on Amazon product reviews and achieved 95.8% accuracy of predictions whether the review was positive or not. 
+
+Tags: *transfer learning, product reviews, sentiment analysis, NLP, neural networks, Python, fastai*
