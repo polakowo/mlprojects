@@ -1,9 +1,3 @@
-**The clear step-by-step instruction on how to produce the final submit file:**
-1. Download competition data and preprocess it with [DataPreparation](DataPreparation.ipynb), which outputs data in a HDF5 format.
-2. Run [LightGBM](LightGBM.ipynb) to produce first base-model meta features and predictions. While importing the preprocessed data, pay attention to the structure of folders with input files, since the notebooks were downloaded directly from Kaggle. Similarly run the [CatBoost](CatBoost.ipynb), [LinReg](LinReg.ipynb) and [NeuralNet](NeuralNet.ipynb) notebooks.
-4. Run [Stacking](Stacking.ipynb), which takes outputs of the base models and generates CSV files for submission.
-5. (optional) For fastest use, upload all notebooks to Kaggle and import the competition data and the respective outputs from other kernels.
-
 **Summary**:
 - In our experience, feature engineering was the most challenging but also the most fruitful part of the competition, which was driven by a careful EDA. The split between public and private is random and we found no significant data leakages to play with. The train distribution was adapated to mimic the test distribution. We were able to extend the data by extracting simple features (such as mean encodings, lagged features, names) as well as more complex ones (such as matrix decomposition). For non-tree-based models such as Linear Regression and Neural Networks standard scaling across all features was used. The most relevant features were selected based on the importance scores of the fitted LGBM models. The data was then fitted to Gradient Boosting Models such as LightGBM and CatBoost, Linear Regression (Vowpal Wabbit), and Neural Networks (fastai). On top of them, diverse ensemble methods (such as bagging of LGBM models and blending) were used to compensate for individual model errors.
 
