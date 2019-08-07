@@ -5,4 +5,4 @@ Transfer learning is an exciting concept but a difficult one to apply in NLP tas
 Tags: *Transfer Learning, Product Reviews, Sentiment Analysis, NLP, Neural Networks, Python*
 
 - [Data Preparation](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/amazon-reviews-sentiment-analysis/data-preparation.ipynb)
-- [Model Training](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/amazon-reviews-sentiment-analysis/amazon-reviews-sentiment-analysis.ipynb)
+- [Training the Model](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/amazon-reviews-sentiment-analysis/amazon-reviews-sentiment-analysis.ipynb)
