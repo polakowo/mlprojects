@@ -4,4 +4,4 @@ The [Credit Card Fraud Detection competition](https://www.kaggle.com/mlg-ulb/cre
 
 Tags: *Competition, Fraud, Transactions, Anomaly Detection, Autoencoders, Neural Networks, Python, sklearn, PyTorch*
 
-[Here is the notebook](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/credit-card-fraud-detection/credit-card-fraud-detection.ipynb)
+[Here is the Jupyter Notebook](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/credit-card-fraud-detection/credit-card-fraud-detection.ipynb)
