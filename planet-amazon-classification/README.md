@@ -1,6 +1,6 @@
 <img width=100 src="https://www.planet.com/assets/logos/logo-dark.png"/>
 
-Classification of satellite images for different atmospheric conditions and land cover and use.
+#### Classification of satellite images for different conditions
 
 Similar to the Airbus competition, the [Planet: Understanding the Amazon from Space](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) challenge was about processing satellite images. Here, the image chips with various atmospheric conditions and classes of land cover/land use had to be tagged (i.e. a multi-label classification task). We trained a simple, fine-tuned ResNet50 to achieve good performance.
 
