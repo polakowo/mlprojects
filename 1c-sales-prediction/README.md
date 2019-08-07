@@ -6,7 +6,7 @@ Sales forecasting plays a major role in a company's success. The goal of this pr
 
 Tags: *Competition, Sales Forecasting, Time Series, Neural Networks, Python, LGBM, CatBoost, Vowpal Wabbit, sklearn, fastai, Ensembling*
 
-**The clear step-by-step instruction on how to produce the final submit file:**
+The clear step-by-step instruction on how to produce the final submit file:
 1. Download competition data and preprocess it with [DataPreparation](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/1c-sales-prediction/DataPreparation.ipynb), which outputs data in a HDF5 format.
 2. Run [LightGBM](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/1c-sales-prediction/LightGBM.ipynb) to produce first base-model meta features and predictions. While importing the preprocessed data, pay attention to the structure of folders with input files, since the notebooks were downloaded directly from Kaggle. Similarly run the [CatBoost](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/1c-sales-prediction/CatBoost.ipynb), [LinReg](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/1c-sales-prediction/LinReg.ipynb) and [NeuralNet](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/1c-sales-prediction/NeuralNet.ipynb) notebooks.
 4. Run [Stacking](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/1c-sales-prediction/Stacking.ipynb), which takes outputs of the base models and generates CSV files for submission.
