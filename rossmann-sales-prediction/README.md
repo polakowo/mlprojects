@@ -1,1 +1,1 @@
-Forecast Rossmann sales with a model for tabular data, incl. data preparation and exploration.
+The [Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales) competition was another time-series competition where one had to predict future Rossmann sales. Our solution steps included data exploration, data preparation, and modeling with neural networks. We additionaly explored embeddings, which gave us some interesting insights: for example, the embeddings of cities learned by the model and visualized on a 2D plot exactly resembled the map of Germany.
