@@ -5,8 +5,8 @@ Similar to the Airbus competition, the [Planet: Understanding the Amazon from Sp
 Tags: *Competition, Satellite Imagery, Image Classification, Tagging, Neural Networks, Transfer Learning, Python, fastai, Web App, Starlette*
 
 - [Here is the Jupyter Notebook](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/planet-amazon-classification/planet-amazon-classification.ipynb)
+- The web app can be deployed with
 
-The web app can be deployed with
 ```
 cd app
 docker build -t planet-amazon .
