@@ -4,7 +4,7 @@ The challenge of the [Airbus Ship Detection Challenge competition](https://www.k
 
 Tags: *Competition, Satellite Imagery, Ship Detection, Image Segmentation, Neural Networks, Transfer Learning, Python, fastai, Web App*
 
-[Here is the notebook](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/airbus-ship-segmentation/airbus-ship-segmentation.ipynb)
+[Here is the Jupyter Notebook](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/airbus-ship-segmentation/airbus-ship-segmentation.ipynb)
 
 The web app can be deployed with
 ```
