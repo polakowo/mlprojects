@@ -1,4 +1,4 @@
-Visual explanation of the model's decision making. As example: Fine-tuned ResNet34 as wild cats recognizer.
+Visual explanation of the model's decision making. Provide guidance in (1) scraping the dataset from Google Images, (2) detecting duplicates using embeddings, (3) explaing the model using [Grad-CAM](https://arxiv.org/abs/1610.02391) and [lime](https://github.com/marcotcr/lime), to clustering embeddings.
 
 The web app can be deployed with
 ```
