@@ -1,4 +1,4 @@
-Visual explanation of the model's decision making.
+#### Visual explanation of the model's decision making
 
 The [Jupyter Notebook](https://nbviewer.jupyter.org/github/polakowo/mlprojects/blob/master/visual-model-explanation/visual-model-explanation.ipynb) scrapes the dataset from Google Images, detects duplicates using embeddings, provides visual explanation of the model using [Grad-CAM](https://arxiv.org/abs/1610.02391) and [lime](https://github.com/marcotcr/lime), and clusters embeddings using t-SNE and other techniques.
 
