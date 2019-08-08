@@ -3,7 +3,7 @@ My personal portfolio of projects related to machine learning.
 
 #### Time Series
 
-- [Forecasting total sales for every product and store in the next month](https://github.com/polakowo/mlprojects/tree/master/1c-sales-prediction)
+- [Forecasting monthly 1C sales for every product and store](https://github.com/polakowo/mlprojects/tree/master/1c-sales-prediction)
 - [Forecasting daily Rossmann sales for up to six weeks in advance](https://github.com/polakowo/mlprojects/tree/master/rossmann-sales-prediction)
 
 #### Fraud Detection
