@@ -1,5 +1,6 @@
 from starlette.applications import Starlette
 from starlette.templating import Jinja2Templates
+from starlette.staticfiles import StaticFiles
 import uvicorn
 import aiohttp
 import asyncio
@@ -16,12 +17,32 @@ from skimage.morphology import label
 # Required to unpickle the model
 from unpickler_attrs import *
 
+# PosixPath
 path = vision.Path(__file__).parent
+
+resnet_file_name = 'Resnet34_256.pkl'
+unet_file_name = 'Unet34_256.pkl'
+
+resnet_file_url = f'https://www.dropbox.com/s/a7t8i40hzna1200/{resnet_file_name}?raw=1'
+unet_file_url = f'https://www.dropbox.com/s/r83mgdq2y7dfhxt/{unet_file_name}?raw=1'
+
+# Starlette config
 app = Starlette(debug=True)
+app.mount('/static', StaticFiles(directory='app/static'))
 templates = Jinja2Templates(str(path/'templates'))
+
+async def download_file(url, dest):
+    """Download a file."""
+    if dest.exists(): return
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            data = await response.read()
+            with open(dest, 'wb') as f:
+                f.write(data)
 
 
 def load_learner(path, fname):
+    """Load the inference learner from disk."""
     # Load the model in cpu mode
     # doesn't work: defaults.device = torch.device('cpu')
     # doesn't work: torch.cuda.set_device('cpu')
@@ -38,11 +59,15 @@ def load_learner(path, fname):
 
 
 async def setup_learners():
+    """Download and load all inference learners."""
+    await download_file(resnet_file_url, path/"models"/resnet_file_name)
+    await download_file(unet_file_url, path/"models"/unet_file_name)
     # Export your learner with learn.export() and copy to the app/models folder
     resnet_learn = load_learner(path/'models', fname='Resnet34_256.pkl')
     unet_learn = load_learner(path/'models', fname='Unet34_256.pkl')
     return resnet_learn, unet_learn
 
+# Set up everything once
 loop = asyncio.get_event_loop()
 tasks = [asyncio.ensure_future(setup_learners())]
 resnet_learn, unet_learn = loop.run_until_complete(asyncio.gather(*tasks))[0]
@@ -50,12 +75,14 @@ loop.close()
 
 
 async def get_bytes(url):
+    """Get bytes from URL."""
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             return await response.read()
 
 
-def mask_overlay(image, mask, color=(0, 1, 0)):
+def mask_overlay(image, mask, color=(1, 0.5, 0)):
+    """Overlay image array with mask array."""
     mask = np.dstack((mask, mask, mask)) * np.array(color)
     mask = mask.astype(image.dtype)
     weighted_sum = cv2.addWeighted(mask, 0.5, image, 0.5, 0.)
@@ -66,6 +93,7 @@ def mask_overlay(image, mask, color=(0, 1, 0)):
 
 
 def image_from_tensor(img_tensor):
+    """Post-process the image tensor for the use in PIL."""
     numpied = img_tensor.squeeze()
     numpied = np.moveaxis(numpied.detach().numpy(), 0, -1)
     numpied = numpied - np.min(numpied)
@@ -74,6 +102,7 @@ def image_from_tensor(img_tensor):
 
 
 def rle_encode(img):
+    """Run-length encode a single ship."""
     pixels = img.T.flatten()
     pixels = np.concatenate([[0], pixels, [0]])
     runs = np.where(pixels[1:] != pixels[:-1])[0] + 1
@@ -82,28 +111,28 @@ def rle_encode(img):
 
 
 def multi_rle_encode(img):
+    """Run-length encode all ships in the image."""
     labels = label(img)
     return [rle_encode(labels == k) for k in np.unique(labels[labels > 0])]
 
 
 def count_ships(mask_tensor):
+    """Count the number of ships in the mask tensor."""
     mask_tensor = mask_tensor.argmax(dim=1)
     mask_tensor = mask_tensor.squeeze(0)
     masks = multi_rle_encode(mask_tensor)
     return len(masks)
 
 
-async def get_prediction(file):
-    # Bytes to image
-    bytes = await (file.read())
-    img = vision.open_image(BytesIO(bytes))
-    # Does the image have ships?
-    with_ships, _, _ = resnet_learn.predict(img)
+async def get_prediction(vision_img, filename):
+    """Generate the prediction and construct the JSON response."""
+    # Does the image have ships? -> Let's let ResNet decide first, saves some time
+    with_ships, _, _ = resnet_learn.predict(vision_img)
     with_ships = str(with_ships) in ('True', '1')
     if with_ships:
         # Pre-process image (align shape etc.)
-        img_tensor = unet_learn.data.one_item(img)[0]
-        # Predict mask
+        img_tensor = unet_learn.data.one_item(vision_img)[0]
+        # Predict the mask
         mask_tensor = unet_learn.model(img_tensor)
         mask_tensor = torch.softmax(mask_tensor, dim=1)
         ships = count_ships(mask_tensor)
@@ -112,40 +141,57 @@ async def get_prediction(file):
         # Post-process both tensors
         img = image_from_tensor(img_tensor)
         mask_img = image_from_tensor(mask_tensor)
-        # Create overlay image
+        # Overlay the mask on the original image
         overlay_img = mask_overlay(img, mask_img)
         overlay_img *= 255
         overlay_img = overlay_img.astype(np.uint8)
         overlay_img = Image.fromarray(overlay_img)
-        # Decode overlay image into a base64 string
+        # Decode the resulting image into a base64 string
         buffered = BytesIO()
         overlay_img.save(buffered, format='PNG')
         image = base64.b64encode(buffered.getvalue()).decode("utf-8")
         return {
             'image': image,
-            'fname': file.filename,
+            'fname': filename,
             'ships': ships
         }
     else:
-        image = base64.b64encode(bytes).decode("utf-8")
+        buffered = BytesIO()
+        img_np = vision.image2np(vision_img.data*255).astype(np.uint8)
+        img = Image.fromarray(img_np).resize((256, 256))
+        img.save(buffered, format='PNG')
+        image = base64.b64encode(buffered.getvalue()).decode("utf-8")
         return {
             'image': image,
-            'fname': file.filename,
+            'fname': filename,
             'ships': 0
         }
 
 
 @app.route("/upload", methods=["POST"])
 async def upload(request):
+    """User hits the upload button."""
     data = await request.form()
-    predictions = list()
-    for file in data.getlist('files'):
-        predictions.append(await get_prediction(file))
-    return templates.TemplateResponse("predict.html", {"items": predictions, "request": request})
+    file = data['file']
+    # Bytes to image
+    bytes = await (file.read())
+    vision_img = vision.open_image(BytesIO(bytes))
+    prediction = await get_prediction(vision_img, file.filename)
+    return templates.TemplateResponse("predict.html", {"item": prediction, "request": request})
+
+
+@app.route("/select", methods=["GET"])
+async def example(request):
+    """User selects an example image."""
+    params = dict(request.query_params)
+    vision_img = vision.open_image(path/"static"/"img"/params['fname'])
+    prediction = await get_prediction(vision_img, params['fname'])
+    return templates.TemplateResponse("predict.html", {"item": prediction, "request": request})
 
 
 @app.route("/")
 def form(request):
+    """User calls the index page."""
     return templates.TemplateResponse("upload.html", {"request": request})
 
 

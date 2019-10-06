@@ -1,5 +1,7 @@
 numpy==1.16.0rc1
-fastai==1.0.45
+fastai==1.0.44
+torch==1.0.0
+torchvision==0.2.2
 starlette==0.11.2
 uvicorn==0.4.5
 python-multipart==0.0.5

@@ -7,19 +7,98 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ship-detection</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+    <style>
+        body {
+            font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
+        <center>
+            <h1>Ship detector</h1>
+        </center>
+        <center>
+            <img src="/static/bullseye-icon.png"/>
+        </center>
+        <br>
         <div class="row">
             <div class="offset-md-4 col-md-4">
                 <form action="/upload" method="post" enctype="multipart/form-data">
                     <div class="custom-file">
-                        <input type="file" name="files" multiple>
+                        <input type="file" name="file">
                     </div>
                     <input type="submit" value="Submit" name="submit" class="btn btn-primary">
                 </form>
+            </div>
+        </div>
+        <br>
+        <p>
+            <center>Or select one of the examples below...</center>
+        </p>
+        <div class="row">
+            <div class="col-md-2">
+                <a href="/select?fname=0243df8bd.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/0243df8bd.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=0035268d9.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/0035268d9.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=c8f930231.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/c8f930231.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=0c2848844.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/0c2848844.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=0dacffb05.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/0dacffb05.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=1e40229e8.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/1e40229e8.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=14b7389b6.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/14b7389b6.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=a1314f4e5.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/a1314f4e5.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=b738d18f4.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/b738d18f4.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=bdd5f5c4f.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/bdd5f5c4f.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=01590e50f.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/01590e50f.jpg">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/select?fname=01924b710.jpg">
+                    <img class="img-fluid img-thumbnail figure-img" src="/static/img/01924b710.jpg">
+                </a>
             </div>
         </div>
     </div>
@@ -28,6 +107,7 @@
         .container {
             margin-top: 32px;
         }
+
         .custom-file {
             margin-bottom: 16px;
         }
