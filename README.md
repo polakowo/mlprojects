@@ -1,5 +1,5 @@
 # mlprojects
-My personal portfolio of projects related to machine learning.
+My portfolio of projects related to data science.
 
 #### Time Series
 
