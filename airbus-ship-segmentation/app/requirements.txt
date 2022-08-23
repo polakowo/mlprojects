@@ -1,4 +1,4 @@
-numpy==1.16.0rc1
+numpy==1.22.0
 fastai==1.0.44
 torch==1.0.0
 torchvision==0.2.2
